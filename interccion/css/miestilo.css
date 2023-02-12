@@ -1,0 +1,94 @@
+/* Define un estilo para el encabezado */
+header {
+  background-color: #336699;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+
+/* Define un estilo para los títulos */
+h1, h2 {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Define un estilo para los párrafos */
+p {
+  font-family: Georgia, serif;
+  color: #666;
+  line-height: 1.5;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+/* Define un estilo para las imágenes */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Define un estilo para la lista de animales */
+ul {
+  list-style: square inside;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+/* Define un estilo para los enlaces */
+a {
+  color: #336699;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Define un estilo para los enlaces cuando se les pasa el cursor por encima */
+a:hover {
+  color: #cc3300;
+}
+
+body {
+  margin: auto;
+  width: 640px; 
+  padding: 50px;
+  font-family: 'Avenir', sans-serif; 
+  color: #33475b;    
+}
+
+/* Centered Image Code */
+
+.container {
+  height: 500px;
+  position: relative;
+  border: 3px solid #dbe4ed; /* Border color is optional */ 
+}
+
+ .center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+div {
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div { background-color: rgb(55, 33, 33); }
+
+header {
+  background-color: lightgray;
+  padding: 20px;
+  text-align: center;
+}
